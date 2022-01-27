@@ -58,7 +58,7 @@ background-image: url("https://img2.goodfon.com/wallpaper/nbig/4/3b/sviter-chern
 }
 .div4{
 
-width: 100%;
+max-width:800px ;
 height: 100vh;
 min-height: 786px;
 }
@@ -136,4 +136,24 @@ min-height: 786px;
 .div2 p {
 font-size:1.5rem;
 float:center;
+}
+
+.card-ul{
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+}
+.card-li{
+width:300px;
+height:200px;
+padding-right:1rem;
+padding-left:1rem;
+padding-top:2.5rem;
+padding-bottom:1rem;
+}
+#h-project{
+padding-top:2em;
+}
+.card-img{
+width:250px;
 }
