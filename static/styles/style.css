@@ -59,14 +59,15 @@ background-image: url("https://img2.goodfon.com/wallpaper/nbig/4/3b/sviter-chern
 .div4{
 
 max-width:800px ;
-height: 100vh;
+height: 140vh;
 min-height: 786px;
 }
 #Contact{
 background-image: url("https://pngimage.net/wp-content/uploads/2018/05/black-hair-texture-png-3.png");
 }
 .div5{
-
+display: table-cell;
+vertical-align: middle;
 width: 100%;
 height: 100vh;
 min-height: 786px;
@@ -77,9 +78,10 @@ min-height: 786px;
 }
 
   @media screen and (min-width: 767px) {
+
+
     a:hover {
     background-color:#282C34;
-
   }
   }
 
@@ -97,6 +99,30 @@ min-height: 786px;
   .div1{
     font-size: 4rem;
     }
+
+  .div4{
+  height:220vh;
+  max-width:330px ;
+  }
+  .card{
+  width:260px;
+  }
+  .card-ul{
+    list-style: none;
+    display: contents !important;
+    flex-wrap: wrap;
+}
+
+
+#h-project{
+padding-top:1em;
+}
+.card-img{
+width:250px;
+height: 120px;
+object-fit:cover;
+}
+
 }
 @media screen and (max-width: 500px) {
   .div1{
@@ -145,15 +171,25 @@ flex-wrap: wrap;
 }
 .card-li{
 width:300px;
-height:200px;
 padding-right:1rem;
 padding-left:1rem;
-padding-top:2.5rem;
-padding-bottom:1rem;
+padding-top:0.5rem;
+padding-bottom:1em;
 }
 #h-project{
-padding-top:2em;
+padding-top:1em;
 }
 .card-img{
 width:250px;
+height: 120px;
+object-fit:cover;
+}
+#want{
+padding:2rem;
+
+}
+#let{
+font-size:1.3rem;
+background-color:#198754;
+border-radius:0%;
 }
