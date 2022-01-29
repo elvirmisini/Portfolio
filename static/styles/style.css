@@ -179,16 +179,25 @@ width:250px;
 height: 120px;
 object-fit:cover;
 }
+.card-img:hover{
+opacity:0.7;
+}
+video:hover{
+opacity:0.7;
+}
 #want,#want1{
 padding:2rem;
 
 }
-#let{
+#let ,#cv{
 font-size:1.3rem;
 background-color:#198754;
 border-radius:0%;
 }
 #let:hover{
+opacity: 0.7;
+}
+#cv:hover{
 opacity: 0.7;
 }
 .fa {

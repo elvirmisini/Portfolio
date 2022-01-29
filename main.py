@@ -1,10 +1,15 @@
-from flask import Flask, redirect, url_for, render_template, request,app,make_response
+from flask import Flask, redirect, url_for, render_template, request,app,make_response,send_file
 app = Flask(__name__)
 
 @app.route('/')
 @app.route('/index')
 def show_index():
     return render_template("about.html")
+
+@app.route('/Mycv')
+def Mycv():
+    cv="static/CV/CVElvirMisini.pdf"
+    return send_file(cv,as_attachment=True)
 
 @app.errorhandler(403)
 def forbidden(e):
